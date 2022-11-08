@@ -33,17 +33,17 @@ body {
 
 #card-one {
     top: 130%;
-    background-image: url(/photos/ONE.png);
+    background-image: url(ONE.png);
 }
 
 #card-two {
     top: 230%;
-    background-image: url(/photos/two.png);
+    background-image: url(two.png);
 }
 
 #card-three {
     top: 250%;
-    background-image: url(/photos/three.png);
+    background-image: url(three.png);
 }
 
 .text{
@@ -59,7 +59,7 @@ body {
     width: 5vw;
     height: 5vw;
     /* background-color: #fff; */
-    background-image: url(/photos/Blue\ Modern\ G\ Letter\ Technology\ Logo\ Design\ \(4\).png);
+    background-image: url(Blue\ Modern\ G\ Letter\ Technology\ Logo\ Design\ \(4\).png);
     background-size: cover;
     background-position: center;
 }
