@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: product sans;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    gap: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 150vh;
+    background-color: #202020;
+}
+
+.cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-one {
+    top: 130%;
+    background-image: url(/photos/ONE.png);
+}
+
+#card-two {
+    top: 230%;
+    background-image: url(/photos/two.png);
+}
+
+#card-three {
+    top: 250%;
+    background-image: url(/photos/three.png);
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-img{
+    width: 5vw;
+    height: 5vw;
+    /* background-color: #fff; */
+    background-image: url(/photos/Blue\ Modern\ G\ Letter\ Technology\ Logo\ Design\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.text h1{
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+}
+
+.text p{
+    font-size: 1vw;
+    color: rgb(126, 126, 126);
+    text-align: center;
+}
